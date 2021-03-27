@@ -1,0 +1,10 @@
+.invoice {
+  font-size: 4vw;
+}
+.header {
+  padding: 2vw;
+  background: rgb(243, 234, 234);
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+}

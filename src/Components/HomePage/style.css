@@ -1,0 +1,40 @@
+.homepage {
+  color: ;
+  font-size: 5vw;
+}
+nav {
+  color: white;
+  line-height: 12vw;
+  background: rgb(0, 128, 255);
+}
+img {
+  width: 8vw;
+}
+ul {
+  text-align: center;
+  transition: all 3s;
+}
+.check-btn {
+  font-size: 30px;
+  color: white;
+  float: right;
+  cursor: pointer;
+}
+#check {
+  display: none;
+}
+nav ul li {
+  display: none;
+}
+#check:checked ~ ul li {
+  display: block;
+}
+.add-new-button {
+  width: 80%;
+  margin-left: 10%;
+  position: fixed;
+  bottom: 4vw;
+}
+.card-padding {
+  padding-bottom: 12vw;
+}
